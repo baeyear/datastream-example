@@ -16,3 +16,19 @@ variable "default_zone" {
 variable "credential_path" {
   type = string
 }
+
+variable "alloydb" {
+  type = map(string)
+  default = {
+    "username" = "username"
+    "password" = "password"
+  }
+}
+
+variable "alloydb_datastream" {
+  type = map(string)
+  default = {
+    "username" = "username"
+    "password" = "password"
+  }
+}
