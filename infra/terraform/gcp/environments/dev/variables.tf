@@ -5,12 +5,12 @@ variable "project_id" {
 
 variable "default_region" {
   type    = string
-  default = "ap-northeast1"
+  default = "asia-northeast1"
 }
 
 variable "default_zone" {
   type    = string
-  default = "ap-northeast1-a"
+  default = "asia-northeast1-a"
 }
 
 variable "credential_path" {
