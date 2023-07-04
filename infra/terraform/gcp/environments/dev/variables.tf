@@ -32,3 +32,8 @@ variable "alloydb_datastream" {
     "password" = "password"
   }
 }
+
+variable "gce_sa" {
+  type = string
+  default = ""
+}
